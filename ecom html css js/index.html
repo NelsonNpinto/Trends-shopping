@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/42cacedbbb.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="container">
+        <nav>
+            <div class="logo">
+                <h1>Trends</h1>
+            </div>
+            <ul>
+                <li>
+                    <a id="home" onclick="homes()">Home</a>
+                    <a id="shops" onclick="shops()">Shop</a>
+                    <a id="blogc" onclick="blogs()">Blog</a>
+                    <a id="about" onclick="about()">About</a>
+                    <a id="contact" onclick="contacts()">Contact</a>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </li>
+            </ul>
+        </nav>
+
+        <!-- main page -->
+        <div class="main">
+            <div class="maintext">
+                <h2>Trend's</h2>
+                <h1 class="top">Super Value Deals</h1>
+                <h1>On All Products</h1>
+                <p>Get 80% off on top Brands</p>
+                <button>Explore</button>
+            </div>
+            <img src="./img/img/poster.jpg" alt="image">
+        </div>
+
+
+        <!--Mens cards -->
+
+        <div class="trend">
+            <div class="head">
+                <h1>Trends <span>Men's wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="./img/img/men1.jpg" onclick="show(this)">
+                    <div class="crdtext">
+                        <h2>cotton trending shirt</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i><br>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="crd">
+                    <img src="./img/img/men2.jpg" onclick="show(this)">
+                    <div class="crdtext">
+                        <h2>cotton trending shirt</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i><br>
+                        <button>Add to cart</button>
+                    </div>
+
+
+                </div>
+
+                <div class="crd">
+                    <img src="./img/img/men4.jpg" onclick="show(this)">
+                    <div class="crdtext">
+                        <h2>cotton trending shirt</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i><br>
+                        <button>Add to cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- women cards -->
+
+        <div class="trend" id="trendsec">
+            <div class="head">
+                <h1>Trends <span>Women's wear</span></h1>
+            </div>
+            <div class="card">
+                <div class="crd">
+                    <img src="./img/img/women5.jpg" onclick="show(this)">
+                    <div class="crdtext">
+                        <h2>Trending Girl Tops</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+
+                <div class="crd">
+                    <img src="./img/img/women2.jpg" onclick="show(this)">
+                    <div class="crdtext">
+                        <h2>Trending Girl Tops</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to cart</button>
+                    </div>
+                </div>
+
+
+                <div class="crd">
+                    <img src="./img/img/eomen3.jpg" onclick="show(this)">
+                    <div class="crdtext">
+                        <h2>Trending Girl Tops</h2>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-solid fa-star"></i>
+                        <i class="fa-regular fa-star-half-stroke"></i> <br>
+                        <button>Add to cart</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+
+        <!-- cart -->
+
+
+        <div class="cart">
+            <img id="newimg" src="" alt="">
+            <div class="carttext">
+                <h1>Trends offer : Trending Shop <br>
+                    Now</h1>
+                <h2>Special price</h2>
+                <h2>₹ 599</h2>
+                <p>200+ bought in past month.</p>
+                
+                <div class="btn">
+                    <button>Buy Now</button>
+                    <button onclick="addtocard()">Add To Cart</button>
+                </div>
+                <button class="back" onclick="back()">Back</button>
+
+            </div>
+        </div>
+
+        <!-- about us -->
+
+        <div class="about">
+
+
+            <div class="aboutus">
+                <h1>#KnowUs</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="me">
+                <img src="./img/img/aboutus.png" alt="">
+                <div class="abouttext">
+                    <h1>Who Are We ?</h1>
+                    <p>
+                        Trends is guided by four principles: customer obsession rather than competitor focus, passion
+                        for invention, commitment to operational excellence, and long-term thinking.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- contact -->
+
+        <div class="contact">
+
+
+            <div class="contactus">
+                <h1>#LetsConnect</h1>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+            </div>
+            <div class="Contactme">
+
+                <div class="Contacttext">
+                    <h1>Visit Our Office or Contact <br>
+                        us today </h1>
+                    <p>Address: dublip park mumbai 201334</p>
+                    <p>contact : nelson.gmail.com </p>
+                    <p>Number : 9881965186</p>
+                </div>
+                <img src="./img/img/map.webp" alt="">
+            </div>
+
+            <div class="form">
+                <h1>Fill Form to connect with us</h1>
+                <input type="text" placeholder="Enter Email"> <br>
+                <input type="text" placeholder="Enter Email"> <br>
+                <input type="text" placeholder="Enter Email"> <br>
+
+                <button>Submit</button>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <!-- blog section -->
+
+    <div class="trends">
+        <div class="head">
+            <h1>Read More about <span> Fashion</span></h1>
+        </div>
+        <div class="card">
+            <div class="blog">
+                <img src="./img/img/wblog2.jpg" alt="">
+                <div class="blogtext">
+                    <h2>Trending Girls Fashion</h2>
+                    <p>Read about latest Women's Fashion</p>
+                    <a href="https://www.faballey.com/blog">Read More</a>
+                </div>
+
+            </div>
+            <div class="blog">
+                <img src="./img/img/mblog.png" alt="">
+                <div class="blogtext">
+                    <h2>Trending Boys Fashion</h2>
+                    <p>Read about latest Boys Fashion</p>
+                    <a href="https://www.apetogentleman.com/">Read More</a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <!-- Leter -->
+    <div class="letter">
+        <div class="lettertext">
+            <h1>Sign up for Newsletter </h1>
+            <p>Sign up for the latest news, facts, analysis, and original stories about Trends India delivered to
+                you.</p>
+        </div>
+        <div class="inp">
+            <input type="text" placeholder="Enter Your Email">
+            <button>Sign Up</button>
+        </div>
+    </div>
+
+    <!-- foter -->
+
+    <div class="footer">
+        <div class="footertext">
+            <h2>Trends</h2>
+            <p>Service</p>
+            <p>Reviews</p>
+
+        </div>
+        <div class="footertext">
+            <h2>About Us</h2>
+            <p>Trends is guided by four principles: customer obsession rather than competitor focus, passion
+                for invention, commitment to operational excellence, and long-term thinking.</p>
+        </div>
+        <div class="footertext">
+            <h2>Contact us</h2>
+            <p>Addres : Mumbai 421004.</p>
+            <p>PH: 988512</p>
+
+        </div>
+
+    </div>
+
+
+
+
+    <script src="main.js"></script>
+
+</body>
+
+</html>

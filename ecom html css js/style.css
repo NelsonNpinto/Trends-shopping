@@ -1,0 +1,398 @@
+* {
+    margin: 0%;
+    padding: 0%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(103, 97, 97);
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    padding: 17px;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    top: 0%;
+    position: sticky;
+}
+
+nav .logo {
+    margin-left: 22px;
+    font-size: 24px;
+}
+
+ul {
+    margin-right: 30px;
+    margin-top: 7px;
+}
+
+
+nav ul li {
+    list-style: none;
+}
+
+ul li a {
+    margin-inline: 22px;
+    font-size: 20px;
+
+}
+
+ul li a i {
+    font-size: 22px;
+}
+
+#home {
+    color: rgb(36, 177, 130);
+}
+
+ul li a:hover {
+    border-bottom: 2px solid rgb(20, 21, 21);
+    cursor: pointer;
+}
+
+ul li i:hover {
+    color: grey;
+    cursor: pointer;
+}
+
+.main {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+
+.main .maintext {
+    margin-top: 250px;
+
+}
+
+.main img {
+    width: 50%;
+    margin-right: -13%;
+    bottom: 0ppx;
+}
+
+.maintext h1 {
+    font-size: 44px;
+}
+
+.maintext .top {
+    color: rgba(0, 255, 255, 0.521);
+}
+
+.maintext button {
+    width: 144px;
+    height: 35px;
+    background-color: rgb(53, 210, 210);
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.maintext button:hover {
+    border: 3px solid rgb(46, 116, 116);
+    background-color: transparent;
+    color: rgb(82, 221, 221);
+}
+
+.maintext p {
+    margin-top: 12px;
+}
+
+
+/* cards */
+
+
+.trend .head h1 {
+    align-items: center;
+    margin-top: 22px;
+    padding: 33px;
+    /* margin-left: 35%; */
+}
+
+.head {
+    display: flex;
+
+    justify-content: center;
+}
+
+.head span {
+    color: aqua;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+}
+
+.card .crd {
+    width: 300px;
+    height: 549px;
+    margin-inline: 11px;
+    background-color: white;
+    padding: 10px;
+}
+
+.crd img {
+    width: 85%;
+    border-radius: 25px;
+    padding: 22px;
+}
+
+.crdtext {
+    margin-left: 22px;
+
+    padding: 8px;
+}
+
+
+.crdtext i {
+
+    color: rgb(255, 149, 0);
+}
+
+.crdtext button {
+    width: 144px;
+    height: 35px;
+    background-color: rgb(53, 210, 210);
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+}
+
+.crdtext button:hover {
+    border: 3px solid rgb(46, 116, 116);
+    background-color: transparent;
+    color: rgb(82, 221, 221);
+}
+
+
+.trends {
+    margin-top: 5%;
+}
+
+.blog {
+    display: flex;
+    justify-content: center;
+    height: 300px;
+    width: 500px;
+    background-color: white;
+    margin-top: 40px;
+    margin-inline: 30px;
+
+}
+
+.blog:hover {
+    transition: 0.6s ease;
+    width: 520px;
+    height: 320px;
+}
+
+.blog img {
+
+    padding: 22px;
+}
+
+.blogtext {
+    padding: 15px;
+    margin-top: 45px;
+}
+
+.blogtext a {
+
+    width: 50px;
+    height: 35px;
+    background-color: rgb(32, 160, 160);
+    border-radius: 4px;
+    font-size: 18px;
+    color: white;
+    margin-top: 10px;
+    position: relative;
+    top: 22px;
+    padding: 3px;
+
+}
+
+.letter {
+    background-color: rgb(5, 5, 74);
+    color: rgb(143, 143, 247);
+    display: flex;
+    justify-content: space-between;
+    padding: 44px;
+    margin-top: 15px;
+}
+
+.inp {
+    display: flex;
+}
+
+.inp input {
+    width: 330px;
+    height: 33px;
+    outline: none;
+    font-size: 18px;
+    border: none;
+}
+
+.inp button {
+    width: 100px;
+    height: 33px;
+    background-color: rgb(53, 210, 210);
+    color: white;
+    border: none;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    padding: 53px;
+
+}
+
+.footer .footertext {
+    margin-inline: 55px;
+}
+
+.footertext p {
+    margin-top: 11px;
+}
+
+
+/* about */
+.about {
+    display: none;
+}
+
+.aboutus {
+    background-color: rgb(5, 5, 74);
+    color: white;
+    padding: 56px;
+    font-size: 22px;
+}
+
+.me {
+    display: flex;
+    justify-content: center;
+    width: 800px;
+    background-color: white;
+    padding: 33px;
+    margin-left: 17%;
+    margin-top: 5%;
+}
+
+.me img {
+    width: 54%;
+}
+
+
+
+/* contact */
+.contact {
+    display: none;
+}
+
+
+.contactus {
+    background-color: rgb(5, 5, 74);
+    color: white;
+    padding: 56px;
+    font-size: 19px;
+}
+
+.Contactme {
+    display: flex;
+    justify-content: center;
+    /* width: 900px; */
+    margin-top: 5%;
+    background-color: white;
+}
+
+/* .Contactme img{
+    /* width: 55%;
+} */
+
+.Contacttext {
+    padding: 22px;
+    width: 600px;
+    margin: 130px;
+}
+
+.Contacttext p {
+    margin-top: 12px;
+}
+
+.form {
+    text-align: center;
+    margin-top: 5%;
+}
+
+.form input {
+    width: 300px;
+    /* height: 30px; */
+    margin-top: 10px;
+    padding: 10px;
+}
+
+.form button {
+    width: 300px;
+    height: 36px;
+    background-color: rgb(3, 103, 103);
+    color: white;
+    font-size: 22px;
+    border: none;
+    margin-top: 22px;
+}
+
+
+/* cart */
+
+
+
+.cart {
+    display: flex;
+    justify-content: center;
+    display: none;
+}
+
+.carttext {
+    padding: 22px;
+    margin-top: 22px;
+
+}
+
+.carttext p {
+    margin-top: 12px;
+}
+
+.carttext h2 {
+    margin: 11px;
+}
+
+.carttext .btn button {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(251, 146, 10);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+}
+
+.carttext .back {
+    width: 140px;
+    height: 40px;
+    background-color: rgb(3, 103, 103);
+    color: white;
+    border: none;
+    font-size: 22px;
+    margin-inline: 11px;
+    margin-top: 22px;
+
+}
